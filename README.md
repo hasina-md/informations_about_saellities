@@ -21,6 +21,8 @@ next there is two ways to insert data
 
 
 for insert a single data db. collection name
+```json
+
 
 db.launches.inertONE({
     "satellite_name" : "Chandrayaan-1",
@@ -28,13 +30,21 @@ db.launches.inertONE({
     "imp" : "first lunar probe"	
 })
 
-### to insert multiple data 
->db.launches.insertMany([{"name" : "cartosat-3",
+
+
+to insert multiple data 
+> db.launches.insertMany([{"name" : "cartosat-3",
 "year" : 2019,
 "importances" "optical stellite with highest resolutions in the world"},
+
+
 {"name" : "GSAT-30",
+
 "year" : 2020,
-"importances" "41st communication satellite launched by ISRO to replace INSAT-4A. it provides advance telecomunnications services to the entire indian sub-continent.}])
+
+"importances" :"41st communication satellite launched by ISRO to replace INSAT-4A. it provides advance telecomunnications services to the entire indian sub-continent.
+
+}])
 
 
 
