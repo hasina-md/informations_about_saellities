@@ -6,3 +6,25 @@
 >The satellite is an artificial object which has been deliberately put into space for different purposes like remote sensing, weather forecasting, image mapping, education, and research.
 
 
+## Mongo DB is not a SQL 
+> It follows    *JSON*  format for storing the data.
+
+as example, here I  am taking inf.about satellites  & its importance.
+
+
+first we will create a DB with a defined *collection name*.
+
+next there is two ways to insert data 
+#### 1. Either we can _import a file_ or _insert a doc._
+
+2. we can insert data with _MONGOSH_    >test.
+
+
+for insert a single data db. collection name
+
+db.launches.inertONE({
+    "satellite_name" : "Chandrayaan-1",
+    "year" : 2008,
+    "imp" : "first lunar probe"	
+})
+
