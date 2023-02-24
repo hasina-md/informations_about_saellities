@@ -46,5 +46,27 @@ to insert multiple data
 
 }])
 
+this command for *read all the data* ;
+
+db.collection name.find ()
+```
+>db.launches.find({"name" : "GSAT-30"})
+
+
+
+MongoDB updateMany() method
+The updateMany() method updates all the documents that matches the given filter.
+
+Syntax
+The basic syntax of updateMany() method is as follows −
+
+>db.COLLECTION_NAME.update(<filter>, <update>)
+
+_for update the data with ome value we should use "$"_
+```json
+
+db.launches.updateOne({"year" : "2019"} {$set :{"name" : "Cartosat-3}})
+
+
 
 
